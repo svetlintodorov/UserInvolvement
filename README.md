@@ -1,9 +1,8 @@
-# Spring boot, Spring security, Spring Data JPA User Involvement app project
+# User Involvement app project - Spring boot, Spring security, Spring Data JPA
 
 ## About
 
-Sample app generated from spring boot initializr: https://start.spring.io/
-Used to build project structure!
+Build project structure spring boot initializr: https://start.spring.io/
 
 ## Technical Stack
 
@@ -15,7 +14,7 @@ Used to build project structure!
 - Lombok abstraction 1.16.20
 - JPA with Postgresql/H2 for explanation
 - REST API model validation 
-- Spring Boot starter test - junit and integration test
+- Spring Boot starter test - junit and integration tests
 
 ## Running the application locally
 
@@ -54,4 +53,7 @@ POST - http://localhost:8080/api/announcements/{announcementId}/like
 ## Retrieve all Users Feedback to announcement by announcementId:
 GET - http://localhost:8080/api/announcement/{announcementId}
 
-
+## Resources:
+SQL of database and all table database.sql
+Used two application.yml files to split configuration of datasource for application.
+We have additional test config which used for all tests. 
